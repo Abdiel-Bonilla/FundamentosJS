@@ -21,4 +21,4 @@ console.log(message.includes('from'));
 console.log(message.startsWith('Hi!'));
 console.log(message.indexOf("Abdiel"));
 console.log(message.split(' '));
-console.log(" ༼ つ ◕_◕ ༽つ ❤".repeat(5));
+console.log(" (☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜) ❤".repeat(5));
