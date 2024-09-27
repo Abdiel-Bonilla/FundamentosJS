@@ -13,25 +13,22 @@ const eightball= () => {
             message.innerText += " Intento uno "
             break;
         case 1:
-            message.innerText += " Este es el segundo"
+            message.innerText += " Parte dos de este cuento"
             break;
         case 2:
-            message.innerText += " Tres de tres"
+            message.innerText += " Eran 3 alpinos "
             break;
         case 3:
-            message.innerText += " Vamos en el ombligo!!"
+            message.innerText += " Fueron felices los 4 :( ) "
             break;
         case 4:
-            message.innerText += " Cinco 5 :)"
+            message.innerText += " Ya casi terminamos "
             break;
         case 5:
             message.innerText += " En este no se que poner "
             break;
         case 6:
-            message.innerText += " Cualquier cosa "
-            break;
-        case 7:
-            message.innerText += " Colorincoloradooo!!!"
+            message.innerText += " Colorincolorado!!"
             break;
         default:
             console.log("Ayudaaaaaa no jalooo!!!");

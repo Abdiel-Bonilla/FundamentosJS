@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #24ffab;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -49,7 +49,6 @@
             width: 60px;
             height: 60px;
             margin-bottom: 10px;
-            display: none;
         }
         .results {
             display: flex;
@@ -75,8 +74,6 @@
         button:hover {
             background-color: #a8099e;
         }
-
-        /* Estilo del botón de regresar */
         a.button {
             position: absolute;
             top: 20px;
@@ -89,7 +86,6 @@
             border-radius: 5px;
             transition: background-color 0.3s;
         }
-
         a.button:hover {
             background-color: #a8099e;
         }
@@ -98,12 +94,12 @@
 <body>
     <div class="container">
         <h1>Piedra, Papel o Tijera</h1>
-        <button id="startButton" onclick="startGame()">Jugar</button>
         <div class="options" id="options">
-            <button onclick="selectPlayerChoice('Piedra')" disabled>Piedra</button>
-            <button onclick="selectPlayerChoice('Papel')" disabled>Papel</button>
-            <button onclick="selectPlayerChoice('Tijera')" disabled>Tijera</button>
+            <button onclick="selectPlayerChoice('Piedra')">Piedra</button>
+            <button onclick="selectPlayerChoice('Papel')">Papel</button>
+            <button onclick="selectPlayerChoice('Tijera')">Tijera</button>
         </div>
+        <button id="startButton" onclick="playGame()" disabled>Jugar</button>
         <div class="results">
             <div id="playerChoice" class="block">
                 <img id="playerImage" src="" alt="Elección del Jugador">
@@ -116,7 +112,8 @@
         </div>
         <div class="result" id="result"></div>
     </div>
-    <script src="scissors.js"></script>
     <a href="./index.html" class="button">Regresar</a>
+
+    <script src="scissors.js"></script>
 </body>
 </html>
