@@ -1,34 +1,50 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamentos Javascript</title>
+    <title>Index</title>
     <style>
         body {
-            margin:0;
-            padding:0;
-            display:grid;
-            width:100vw;
-            height:100vh;
-            place-items:center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
-        div{
-            width:300px;
-            height:300px;
-            border-radius:50%;
-            border: 2px solid rgb(247, 6, 6);
-            background-color: yellow;
-            display:grid;
-            place-items:center;
+        .container{
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .boton{
+            
+            padding: 10px 20px;
+            background-color: #ff24c8;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .ppt{
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
+    <div class="container">
+    <h1>FUNDAMENTOS JAVASCRIPT</h1>
     <div>
-        <h1>Bola magica</h1>
+    <a href="./bal.html" class="boton">Bola magica</a>
     </div>
-    <script src="./app.js"></script>
+    <div class="ppt">
+    <a href="./scisorrs.html" class="boton">Piedra, papel o tijera</a>
+    </div>
 </body>
 </html>
